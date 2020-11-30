@@ -1,17 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line.h                                    :+:      :+:    :+:   */
+/*   get_next_line_bonus.h                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: thjacque <thjacque@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/26 16:27:04 by thjacque          #+#    #+#             */
-/*   Updated: 2020/11/30 08:26:53 by thjacque         ###   ########lyon.fr   */
+/*   Updated: 2020/11/30 08:35:06 by thjacque         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef GET_NEXT_LINE_H
-# define GET_NEXT_LINE_H
+#ifndef GET_NEXT_LINE_BONUS_H
+# define GET_NEXT_LINE_BONUS_H
 # include <stdlib.h>
 # include <unistd.h>
 # ifndef BUFFER_SIZE

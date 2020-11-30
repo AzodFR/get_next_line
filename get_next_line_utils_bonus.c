@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line_utils.c                              :+:      :+:    :+:   */
+/*   get_next_line_utils_bonus.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: thjacque <thjacque@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/26 16:27:07 by thjacque          #+#    #+#             */
-/*   Updated: 2020/11/30 04:26:24 by thjacque         ###   ########lyon.fr   */
+/*   Updated: 2020/11/30 08:27:05 by thjacque         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 char	*ft_strchr(char *s, char c)
 {

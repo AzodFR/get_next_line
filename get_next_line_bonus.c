@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line.c                                    :+:      :+:    :+:   */
+/*   get_next_line_bonus.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: thjacque <thjacque@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/26 16:27:10 by thjacque          #+#    #+#             */
-/*   Updated: 2020/11/30 08:32:11 by thjacque         ###   ########lyon.fr   */
+/*   Updated: 2020/11/30 08:31:42 by thjacque         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 void	ft_strdel(char **str)
 {
