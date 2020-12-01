@@ -6,13 +6,11 @@
 /*   By: thjacque <thjacque@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/26 16:27:10 by thjacque          #+#    #+#             */
-/*   Updated: 2020/12/01 10:11:01 by thjacque         ###   ########lyon.fr   */
+/*   Updated: 2020/12/01 13:56:08 by thjacque         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line_bonus.h"
-
-#include "get_next_line.h"
 
 void	ft_strdel(char **str)
 {
