@@ -6,7 +6,7 @@
 /*   By: thjacque <thjacque@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/26 16:27:10 by thjacque          #+#    #+#             */
-/*   Updated: 2020/11/30 08:32:11 by thjacque         ###   ########lyon.fr   */
+/*   Updated: 2020/12/01 09:59:48 by thjacque         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -102,7 +102,8 @@ int		get_next_line(int fd, char **line)
 	eof = 0;
 	if (fd < 0 || read(fd, buffer, 0) < 0 || !line || BUFFER_SIZE < 1)
 	{
-		*line = NULL;
+		if (line)
+			*line = NULL;
 		return (-1);
 	}
 	if ((rest[fd] = get_actual_line(buffer, rest, fd)) == (char *)-1)

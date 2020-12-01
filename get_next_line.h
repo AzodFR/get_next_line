@@ -6,7 +6,7 @@
 /*   By: thjacque <thjacque@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/26 16:27:04 by thjacque          #+#    #+#             */
-/*   Updated: 2020/11/30 08:26:53 by thjacque         ###   ########lyon.fr   */
+/*   Updated: 2020/12/01 10:11:41 by thjacque         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,6 @@
 # define GET_NEXT_LINE_H
 # include <stdlib.h>
 # include <unistd.h>
-# ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 32
-# endif
 
 int				ft_strlen(char *s);
 char			*ft_strchr(char *s, char c);

@@ -6,11 +6,13 @@
 /*   By: thjacque <thjacque@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/26 16:27:10 by thjacque          #+#    #+#             */
-/*   Updated: 2020/11/30 08:31:42 by thjacque         ###   ########lyon.fr   */
+/*   Updated: 2020/12/01 10:11:01 by thjacque         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line_bonus.h"
+
+#include "get_next_line.h"
 
 void	ft_strdel(char **str)
 {
@@ -102,7 +104,8 @@ int		get_next_line(int fd, char **line)
 	eof = 0;
 	if (fd < 0 || read(fd, buffer, 0) < 0 || !line || BUFFER_SIZE < 1)
 	{
-		*line = NULL;
+		if (line)
+			*line = NULL;
 		return (-1);
 	}
 	if ((rest[fd] = get_actual_line(buffer, rest, fd)) == (char *)-1)
