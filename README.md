@@ -13,4 +13,4 @@
 | OK | OK |
 
 ## Final Grade
-![alt text](https://image.prntscr.com/image/NCikhVS7SeWMB6Ue2hgYjA.png)
+![alt text](https://i.imgur.com/xD8JRiL.png)
